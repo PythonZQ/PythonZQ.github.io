@@ -1950,7 +1950,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #75e894;
+  background: #6bffeb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2814,6 +2814,12 @@ embed {
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
 }
+#days {
+  display: block;
+  color: #fffa74;
+  font-size: 14px;
+  margin-top: 15px;
+}
 .header {
   background: url("/images/header-bk.jpg");
   background-color: rgba(0,0,0,0);
@@ -2825,70 +2831,73 @@ embed {
   background-size: auto auto;
   background-origin: padding-box;
   background-clip: border-box;
-  height: 20vh;
+  height: 40vh;
 }
 .header-inner {
-  padding: 25px 0 20px;
+  padding: 45px 0 25px;
 }
 .header-inner {
   position: relative;
 }
 .header-inner {
   margin: 0 auto;
-  width: 700px;
 }
 .site-meta {
-  margin-left: 0px;
+  margin: 0px;
   text-align: center;
 }
-.site-meta {
-  float: none;
-}
-.site-meta {
-  text-align: center;
-}
-.site-meta {
-  line-height: normal;
-}
-.site-nav {
-  display: block !important;
-}
-.menu {
-  float: none;
-}
-.menu {
-  margin: 8px 0 0 0;
-}
-.menu {
-  padding-left: 0;
-  text-align: center;
-}
-.menu .menu-item {
-  margin: 0;
-}
-.use-motion .menu-item {
+.use-motion .brand {
   opacity: 0;
 }
-.menu .menu-item {
+.brand {
+  background: 0 0;
+}
+.brand {
+  position: relative;
   display: inline-block;
-  margin: 0 10px;
-  list-style: none;
+  padding: 0 40px;
+  color: #f4fbf7;
+  background: #222;
+  border-bottom: none;
+}
+.use-motion .site-title {
+  position: relative;
+}
+.site-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.site-title {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 36px;
+  font-family: 'Comic Sans MS', Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+use-motion .site-subtitle {
+  position: relative;
+}
+.site-subtitle {
+  font-size: 15px;
+  color: #fff;
+}
+.site-subtitle {
+  margin-top: 10px;
+}
+h1 {
+  margin: 0;
+  margin-top: 0px;
+  padding: 0;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: 'Comic Sans MS', Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .menu .menu-item a {
   font-size: 14px;
-  color: #0f2e41;
-  border-radius: 4px;
-}
-.menu .menu-item a {
-  padding: 0 10px;
-  background: none;
-  border: none;
-  border-radius: 2px;
-  transition-property: background;
 }
 .menu .menu-item a {
   display: block;
   font-size: 13px;
+  text-transform: capitalize;
   line-height: inherit;
   border-bottom: 1px solid transparent;
   transition-property: border-color;
@@ -2896,39 +2905,42 @@ embed {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
 }
-.menu {
+a {
+  color: rgba(0,0,0,0.8);
+}
+a {
+  color: #444;
+  text-decoration: none;
+  border-bottom: 1px solid #999;
+  word-wrap: break-word;
+}
+a {
+  background-color: transparent;
+}
+.menu .menu-item .fa {
+  margin-right: 0;
+}
+.menu .menu-item .fa {
+  margin-right: 5px;
+}
+.fa-fw {
+  width: 1.28571429em;
   text-align: center;
 }
-.menu .menu-item a {
-  font-size: 14px;
-  color: #0f2e41;
-  border-radius: 4px;
-}
-.menu .menu-item a {
-  padding: 0 10px;
-  background: none;
-  border: none;
-  border-radius: 2px;
-  transition-property: background;
-}
-.menu .menu-item a {
-  display: block;
-  font-size: 13px;
-  line-height: inherit;
-  border-bottom: 1px solid transparent;
-  transition-property: border-color;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
-}
-.menu .menu-item {
-  margin: 0;
-}
-.use-motion .menu-item {
-  opacity: 0;
-}
-.menu .menu-item {
+.fa {
   display: inline-block;
-  margin: 0 10px;
-  list-style: none;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  font-size: inherit;
+  text-rendering: auto;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
 }
