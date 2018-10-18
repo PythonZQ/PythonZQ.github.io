@@ -135,15 +135,18 @@
 
 
 
+<meta name="description" content="document.querySelectorAll(&apos;.github-emoji&apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&apos;img&apos;);             img.style">
 <meta name="keywords" content="python,hexo,杂文">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta property="og:url" content="http://www.pythonzq.top/about/index.html">
 <meta property="og:site_name" content="PythonZQ">
+<meta property="og:description" content="document.querySelectorAll(&apos;.github-emoji&apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&apos;img&apos;);             img.style">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-10-15T06:40:29.588Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="about">
+<meta name="twitter:description" content="document.querySelectorAll(&apos;.github-emoji&apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&apos;img&apos;);             img.style">
 
 
 
@@ -173,7 +176,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/about/"/>
+  <link rel="canonical" href="http://www.pythonzq.top/about/"/>
 
 
 
@@ -291,9 +294,9 @@
       
         
         <li class="menu-item menu-item-life">
-          <a href="/categories/life" rel="section">
+          <a href="/life/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-coffee"></i> <br />
             
             生活
           </a>
@@ -381,7 +384,25 @@
       <div class="post-body">
         
         
-          
+          <script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         
       </div>
       
@@ -430,9 +451,11 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+			  <a href="/">
               <img class="site-author-image" itemprop="image"
-                src="/images/avatar.gif"
+                src="/uploads/avatar.gif"
                 alt="Pythonzhang" />
+			  </a>
             
               <p class="site-author-name" itemprop="name">Pythonzhang</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -472,6 +495,12 @@
           
 
           
+          
+            <div class="cc-license motion-element" itemprop="license">
+              <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank" rel="external nofollow">
+                <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+              </a>
+            </div>
           
 
           
@@ -585,7 +614,7 @@ show_date_time();
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共:73字</span>
+  <span class="post-count">博客全站共:127字</span>
 </div>
 
 <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
@@ -602,6 +631,20 @@ show_date_time();
 
 
 
+
+
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8a38ae04e6c568962bdee0f25dc240ac";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+&nbsp;&nbsp;|&nbsp;&nbsp;<span><a href="/sitemap.xml">Google网站地图</a></span>
+&nbsp;&nbsp;|&nbsp;&nbsp;<span><a href="/baidusitemap.xml">百度网站地图</a></span>
 
 
 

@@ -2,28 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://www.pythonzq.top/top/index.html</loc>
+    
+    <lastmod>2018-10-18T07:33:46.493Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pythonzq.top/about/index.html</loc>
     
     <lastmod>2018-10-15T06:40:29.588Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://www.pythonzq.top/categories/index.html</loc>
     
     <lastmod>2018-10-15T06:10:31.025Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>http://www.pythonzq.top/tags/index.html</loc>
     
     <lastmod>2018-10-15T06:06:34.322Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/hello-world.html</loc>
+    <loc>http://www.pythonzq.top/hello-world.html</loc>
     
     <lastmod>2018-10-11T11:45:51.806Z</lastmod>
     

@@ -2023,7 +2023,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #79fa9a;
+  background: #fff6ad;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2886,6 +2886,12 @@ embed {
   font-size: 14px;
   margin-top: 15px;
 }
+#heart {
+  animation: heartAnimate 1.33s ease-in-out infinite;
+}
+.with-love {
+  color: #ff71a8;
+}
 .header {
   background: url("/images/header-bk.jpg");
   background-color: rgba(0,0,0,0);
@@ -3009,4 +3015,177 @@ a {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
+}
+img#github-emoji {
+  margin: 0px;
+  padding: 0px;
+  display: inline !important;
+  vertical-align: text-bottom;
+  border: none;
+  cursor: text;
+  box-shadow: none;
+}
+.post-body a {
+  color: #5073b8;
+  border-bottom: none;
+  text-decoration: underline;
+}
+.post-body a:hover {
+  color: #a166ab;
+  border-bottom: none;
+  text-decoration: underline;
+}
+.tag-cloud a {
+  color: #5073b8;
+  border-bottom: 1px solid #5073b8;
+  text-decoration: none;
+}
+.tag-cloud a:hover {
+  color: #a166ab;
+  border-bottom: 1px solid #a166ab;
+  text-decoration: none;
+}
+a.categories {
+  color: #5073b8;
+  border-bottom: none;
+  text-decoration: underline;
+}
+a.categories:hover {
+  color: #a166ab;
+  border-bottom: none;
+  text-decoration: underline;
+}
+.post-body .tabs ul.nav-tabs li.tab a {
+  text-decoration: none;
+}
+a.fancybox {
+  text-decoration: none !important;
+}
+.btn {
+  color: #fff !important;
+  text-decoration: none !important;
+  border: 2px solid #222 !important;
+}
+.btn:hover {
+  color: #222 !important;
+}
+@-moz-keyframes heartAnimate {
+  0%, 100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  10%, 30% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50%, 70% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@-webkit-keyframes heartAnimate {
+  0%, 100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  10%, 30% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50%, 70% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@-o-keyframes heartAnimate {
+  0%, 100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  10%, 30% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50%, 70% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes heartAnimate {
+  0%, 100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  10%, 30% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50%, 70% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 }
