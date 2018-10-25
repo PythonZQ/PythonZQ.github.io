@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.pythonzq.top/about/index.html</loc>
+    
+    <lastmod>2018-10-25T08:13:31.685Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.pythonzq.top/tags/index.html</loc>
     
     <lastmod>2018-10-25T08:04:44.806Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://www.pythonzq.top/life/index.html</loc>
     
     <lastmod>2018-10-25T08:03:42.895Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.pythonzq.top/about/index.html</loc>
-    
-    <lastmod>2018-10-25T07:58:15.482Z</lastmod>
     
   </url>
   
